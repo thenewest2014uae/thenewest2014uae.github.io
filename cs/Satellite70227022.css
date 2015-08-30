@@ -1,0 +1,21 @@
+/**************************** LAYOUT *******************************/
+.footer{position:relative;z-index:10;float:left;;padding:0 15px 15px 15px;margin-top:5px;width:945px}
+.footer ul{float:left;list-style:none}
+.footer li{display:inline;border-right:#006991 solid 1px;padding:0 10px}
+.footer li:first-child {padding-left:0}
+.footer li.last{border-right:0}
+.footer .copyright{display:inline;float:right;margin:5px 15px}
+.footer p {clear:both;padding-top:11px}
+
+
+
+/**************************** THEME *******************************/
+
+
+
+
+/**************************** TYPOGRAPHY *******************************/
+.footer li{font-size:10px}
+.footer li a:hover{font-weight:normal}
+.footer .copyright{font-size:10px;color:#006991}
+.footer p {font-size:10px}

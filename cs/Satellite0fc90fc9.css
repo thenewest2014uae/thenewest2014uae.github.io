@@ -1,0 +1,16 @@
+/**************************** LAYOUT *******************************/
+.breadcrumb{position:relative;z-index:10;float:left;height:25px;padding:0 15px;margin-top:5px}
+.breadcrumb ul{list-style:none}
+.breadcrumb li {display:inline}
+.breadcrumb li a {padding:0 12px 0 4px;background:url(/bcms-resources/retail/images/breadcrumb-arrow.gif) no-repeat right center}
+
+
+
+/**************************** THEME *******************************/
+
+
+
+
+/**************************** TYPOGRAPHY *******************************/
+.breadcrumb li{color:#4c4b4a;font-size:0.750em}
+.breadcrumb li a:hover{font-weight:normal}

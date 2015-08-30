@@ -1,0 +1,159 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block}
+
+html {
+    font-size: 100%; /* 1 */
+    overflow-y: scroll; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 3 */
+    -ms-text-size-adjust: 100%; /* 3 */
+}
+html {overflow: -moz-scrollbars-vertical;overflow-y:scroll}
+body{font-family:Verdana,Geneva,sans-serif;font-size:100%;background: url(/bcms-resources/retail/images/bggradient-retail.gif) repeat-x left top;/* Firefox 3.6+ */background:-moz-linear-gradient(#f2f2f2, #fff 100%);/* Safari 4+, Chrome 1+ */background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#f2f2f2), to(#fff 100%));/* Safari 5.1+, Chrome 10+ */background-image:-webkit-linear-gradient(#f2f2f2, #fff 100%);/* Opera 11.10+ */background-image:-o-linear-gradient(#f2f2f2, #fff 100%)}
+html,body,div,ul,ol,li,h1,h2,h3,table,tr,th,td,nav,aside,section{margin:0;padding:0}
+.clear{clear:both;height:0;overflow:hidden}
+a:link,a:visited,a:active{color:#006991;text-decoration:none}
+a:hover{text-decoration:underline}
+a img{border:0}
+p {color:#4c4a4b;font-size:12px}
+.styled-table caption, .styled-table td, .styled-table th{color:#4c4a4b;font-size:12px}
+.page-wrapper{background: url(/bcms-resources/retail/images/bg-retail.gif) no-repeat left top #fff;width:976px;margin:0 auto;position:relative;z-index:1}
+.maincontent-wrapper{padding-top:100px}
+.pagelightbox-wrapper{width:976px;background:#000;opacity:0.5;position:relative;z-index:1}
+
+.pdflink {background:transparent url(/bcms-resources/global/images/pdf.gif) no-repeat 0 0 !important;padding: 2px 0 2px 30px !important;margin:10px 0;font-size:12px}
+.pdflink span {color:#666 !important}
+
+.styled-table{margin:10px 10px 0 0}
+.styled-table table, 
+table.styled-table {clear:both;table-layout:fixed;border:1px solid #E0E0E0;border-collapse:separate;margin-bottom:20px;margin-top:-11px;border-width:1px 1px 0 0}
+.styled-table table td, 
+table.styled-table td,
+.styled-table table th, 
+table.styled-table th {border:1px solid #E0E0E0;border-width:0 0 1px 1px}
+
+.styled-table table caption, 
+table.styled-table caption {border:1px solid #00b1e8;padding:5px 10px;text-align:left;font-weight:bold;color:#fff;background-color:#00b1e8}
+.styled-table table tr, 
+table.styled-table tr {position:relative;border:0}
+.bg-grey-panel{background-color:#E0E0E0}
+.bg-normal-white{}
+
+.styled-table table tr.evenrow, 
+table.styled-table tr.evenrow {background-color:#FFF}
+
+.styled-table table tr td, 
+table.styled-table tr td, 
+.styled-table table tr th, 
+table.styled-table tr th {padding:5px 10px;text-align:left;vertical-align:top}
+
+/**************************** TERMS AND CONDITIONS SECTION *******************************/
+.terms-conditions-content{margin: 1px 0 0 15px;color:#A9A9A9}
+.terms-conditions-paragraph{margin-right: 1px}
+
+/**************************** SEARCH BOX *******************************/
+.search-image{float:right;margin:-27px -8px 5px 9px}
+#search{size:5px}
+
+/**************************** BUTTONS IN TABLE *******************************/
+.table-butgreen{margin:10px 15px 4px 10px}
+.table-butgreen{clear:right}
+.table-butgreen a{padding:8px 20px;display:block}
+.table-butgreen a{background:url("../bcms-resources/retail/images/but-greenbg.gif") repeat-x left top transparent;z-index:1}
+.tab-butgreen a:hover{background:#bed630}
+.table-butgreen a{color:#006991;font-weight:bold;font-size:0.75em;text-decoration:none;text-align:center}
+.tab-butgreen a:hover{color:#006991}
+
+/**************Muhammad Atif************/
+#comparison-table select, #comparison-table td{width:120px;position: relative;}
+a.removeItem{background-color: #00B1EB; border: 1px solid white;color:#fff;font-size: 10px;font-weight: bold;padding: 0 2px 0px; position: absolute; top:0px; right:-5px;}
+a.removeItem:hover{background-color: #fff; color:#000;text-decoration: none;border: 1px solid gray;}
+.tabdetail-heading{width:706px}
+#comparison-table{margin-left:15px}	
+a.table-butgreen{padding:8px 10px;display:block}
+a.table-butgreen{background:url("../bcms-resources/retail/images/but-greenbg.gif") repeat-x left top transparent;z-index:1}
+a:hover.tab-butgreen{background:#bed630}
+a:hover.table-butgreen {background:#bed630}
+a.table-butgreen{color:#006991;font-weight:bold;font-size:0.75em;text-decoration:none;text-align:center}
+a:hover.tab-butgreen{color:#006991}
+.fireFix {position:relative;}
+#retailProductComparisonId ul li, ol li{list-style-position: outside;margin-bottom: 0px;}
+
+/**************************/
+
+
+/**************************** Landing campaign page *******************************/
+.landing-page-wrapper{background: url(/bcms-resources/retail/images/landing-bg-retail.gif) no-repeat left top #fff;width:976px;margin:0 auto;position:relative;z-index:1}
+
+
+
+/**changes for pressreleasedetail page*/
+.pdfId{font-weight:bold;
+padding-left:9px;font-size:13px;}
+.headingId{color:#00B1EB;font-size:18px;}
+
+#retail-pressreleasedetail ul {list-style:disc;padding-left: 19px;} 
+#retail-pressreleasedetail ol {list-style:decimal;padding-left: 26px;}
+
+
+/*****************************Proucts To Compare*****************************/
+
+.tab-heading-white {
+    width:500px;
+	float:left
+}
+.tab-heading span,.tabdetail-heading span{
+	float:right;
+	color:#FFFFFF;
+    font-size:0.75em;
+	margin:10px;
+	display:none
+}
+.bg-compare{width:228px}
+.compare-aside-heading {
+    color:#4C4B4A;
+    font-size:0.875em;
+    font-weight:bold;
+    height:24px;
+    margin-left:10px;
+    padding-top:4px
+}
+.bg-compare-mid {
+    background:url("../bcms-resources/retail/images/bg-usefultools-border.gif") repeat-y scroll 0 -12px #FBFBFB;
+	width:228px;
+	overflow:auto
+}
+.bg-compare-bot {
+    background:url("../bcms-resources/retail/images/bg-usefultools.gif") no-repeat scroll left bottom transparent;
+    height:12px;
+    width:228px
+}
+div.compartcart-icon-compare {
+    background:url("../bcms-resources/retail/images/icons-comms.gif") no-repeat scroll -700px -630px transparent;
+    height:45px;
+    width:50px;
+	margin:0px 10px;
+	float:left
+}
+.compare-aside ul {
+	width:150px;
+	float:left;
+    list-style:none outside none;
+	font-size:0.688em
+}
+.compare-aside ul li span.cmpcounter{
+	display:none;
+	width:10px
+}
+.compare-aside ul  li a{
+	float:left;
+    width:126px
+}
+.compare-aside ul  li img{
+	float:left;
+    margin:3px 4px 0px 0px
+}
+.compare-aside ul  li img.btnremove{
+	display:none;
+	cursor:pointer
+}
+
+/*****************************Proucts To Compare*****************************/

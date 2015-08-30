@@ -1,0 +1,66 @@
+/**************************** LAYOUT *******************************/
+.barousel{position:relative;z-index:10;width:940px;height:260px;margin:0 0 0 16px}
+.barousel-small{position:relative;z-index:10;width:700px;height:262px;margin:0 0 0 16px}
+
+.barousel-image{position:absolute;z-index:10;width:940px;height:260px}
+.barousel-small .barousel-image{width:700px;height:262px}
+
+.barousel-image img{position:absolute;display:none}
+.barousel-image img.default{display:block}
+.barousel-image img.current{z-index:10}
+.barousel-image img.previous{z-index:10}
+.barousel-content p.header{width:250px;margin-left:-15px;_margin-left:-8px}
+/*banner*/
+.bannerbarousel{position:relative;z-index:10;width:700px;height:260px;margin:0 0 0 16px}
+.bannerbarousel-image{position:absolute;z-index:10;width:700px;height:260px}
+.bannerbarousel-image img{position:absolute;display:none}
+.bannerbarousel-image img.default{display:block}
+.bannerbarousel-image img.current{z-index:10}
+.bannerbarousel-image img.previous{z-index:10}
+.bannerbarousel-content p.header{width:200px;margin-left:-15px;_margin-left:-8px}
+
+
+
+/**************************** THEME *******************************/
+.barousel-content{overflow:hidden;position:relative;float:right;padding:5px 15px;width:274px;height:250px;vertical-align:middle;z-index:50;background:#1a1a1a;opacity:0.9;/* Firefox 3.6+ */background:-moz-linear-gradient(#222, #333 100%);/* Safari 4+, Chrome 1+ */background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#222), to(#333 100%));/* Safari 5.1+, Chrome 10+ */background-image:-webkit-linear-gradient(#222, #333 100%);/* Opera 11.10+ */background-image:-o-linear-gradient(#222, #333 100%);color:#fff;behavior: url("../bcms-resources/global/js/pie.htc");-pie-background: linear-gradient(#222, #333 100%)}
+.barousel-small .barousel-content {height:252px}
+.barousel-content div{display:none}
+.barousel-content div.default{display:block}
+.barousel-content .but-grey-find a{background:url("../bcms-resources/retail/images/but-greybg.gif") repeat-x left top transparent;z-index:1;opacity:1.0;padding:5px 15px}
+.barousel-content .but-grey-find a:hover{background:#b7b7b7}
+.barousel-nav{position:absolute;padding:0;background:#1a1a1a;opacity:0.95;right:0;top:226px;z-index:20;height:34px;width:304px}
+.barousel-small .barousel-nav{height:36px}
+.barousel-nav .counter{float:right;font-size:12px;color:#fff;margin:3px 5px 0 0}
+.barousel-nav ul{float:left;padding:10px 0 0 15px}
+.barousel-nav li{float:left;padding-left:3px;font-size:0;line-height:0;list-style:none}
+.barousel-nav li a{display:block;width:16px;height:16px;background-color:#b7b7b7;font-size:0;line-height:0}
+.barousel-nav li a:hover{background-color:#4c4b4a}
+.barousel-nav li a.current{background-color:#4c4b4a}
+.barousel-nav li.prev a{background:url("../bcms-resources/retail/images/but-grey16x16-arrows.gif") no-repeat 0 -48px transparent;z-index:100}
+.barousel-nav li.next a{background:url("../bcms-resources/retail/images/but-grey16x16-arrows.gif") no-repeat 0 -16px transparent;z-index:100}
+.barousel-nav-blue{position:relative;padding:10px 6px 0 0;background:#00b1eb;left:636px;top:226px;z-index:20;height:24px;width:298px}
+/*banner*/
+.bannerbarousel-content{position:relative;float:right;padding:5px 15px;z-index:50;background:#1a1a1a;opacity:0.9;/* Firefox 3.6+ */background:-moz-linear-gradient(#222, #333 100%);/* Safari 4+, Chrome 1+ */background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#222), to(#00b1eb 333%));/* Safari 5.1+, Chrome 10+ */background-image:-webkit-linear-gradient(#222, #333 100%);/* Opera 11.10+ */background-image:-o-linear-gradient(#222, #333 100%)color:#fff;width:214px;height:252px;vertical-align:middle}
+.bannerbarousel-content div{display:none}
+.bannerbarousel-content div.default{display:block}
+.bannerbarousel-content .but-grey-find a{background:url("../bcms-resources/retail/images/but-greybg.gif") repeat-x left top transparent;z-index:1;opacity:1.0;padding:5px 15px}
+.bannerbarousel-content .but-grey-find a:hover{background:#b7b7b7}
+.bannerbarousel-nav{position:relative;padding:10px 6px 0 0;background:#1a1a1a;opacity:0.95;left:456px;top:226px;z-index:20;height:24px;width:238px}
+.bannerbarousel-nav .counter{float:right;font-size:12px;color:#fff;margin:3px 5px 0 0}
+.bannerbarousel-nav ul{float:left;padding:0;margin:0 0 0 15px}
+.bannerbarousel-nav li{float:left;padding-left:3px;font-size:0;line-height:0;list-style:none}
+.bannerbarousel-nav li a{display:block;width:16px;height:16px;background-color:#b7b7b7;font-size:0;line-height:0}
+.bannerbarousel-nav li a:hover{background-color:#4c4b4a}
+.bannerbarousel-nav li a.current{background-color:#4c4b4a}
+.bannerbarousel-nav li.prev a{background:url("../bcms-resources/retail/images/but-grey16x16-arrows.gif") no-repeat 0 -48px transparent;z-index:100}
+.bannerbarousel-nav li.next a{background:url("../bcms-resources/retail/images/but-grey16x16-arrows.gif") no-repeat 0 -16px transparent;z-index:100}
+.bannerbarousel-nav-blue{position:relative;padding:10px 6px 0 0;background:#00b1eb;left:636px;top:226px;z-index:20;height:24px;width:238px}
+.barousel-content ul, .barousel-content ol, .bannerbarousel-content ul, .bannerbarousel-content ol{margin:0 0 0 18px}
+
+
+
+/**************************** TYPOGRAPHY *******************************/
+.barousel-content {color:#fff}
+.barousel-content p, .bannerbarousel-content p{font-size:1em;color:#fff}
+.barousel-content p.header, .bannerbarousel-content p.header{font-size:1.500em;color:#fff;margin-bottom:0;height:auto}
+.barousel-content a, .barousel-content a:hover, .bannerbarousel-content a, .bannerbarousel-content a:hover{color:#006991;font-size:0.750em;font-weight:bold}

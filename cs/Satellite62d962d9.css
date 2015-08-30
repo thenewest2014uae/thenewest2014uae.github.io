@@ -1,0 +1,16 @@
+/**************************** LAYOUT *******************************/
+.quicklinks{float:right;height:40px;padding:0 15px;margin-top:5px}
+.quicklinks ul{list-style:none}
+.quicklinks li{display:inline;border-right:#006991 solid 1px;padding:0 10px 0 1px;*padding:0 10px 0 10px}
+.quicklinks li.last{border-right:none}
+
+
+
+/**************************** THEME *******************************/
+
+
+
+
+/**************************** TYPOGRAPHY *******************************/
+.quicklinks li{font-size:0.625em}
+.quicklinks li a:hover{font-weight:normal}

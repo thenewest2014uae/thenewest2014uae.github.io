@@ -1,0 +1,108 @@
+/**************************** LAYOUT *******************************/
+/*Help Directory*/
+.detailservice-wrapper{width:700px;margin:10px 0 0 15px;float:left}
+.help-subheading{margin-top:2em}
+.help-wrapper{width:700px;margin-bottom:30px}
+.help-wrapper nav{float:left;margin:10px 40px;_margin:10px 20px;width:270px}
+.panel-warning nav{float:left;margin:10px 0 0 25px;width:400px}
+.warning-heading span{margin-left:25px}
+.warningicon-contact span,.warning-contact{margin-left:50px}
+/*Landing Campaign*/
+#retailLanding .landingcontent-wrapper{margin:10px 15px 20px 15px;padding-top:40px}
+#retailLanding .landing-content-wrapper{margin:10px 15px 20px 15px}
+#retailLanding .panellanding-wrapper{width:940px;margin-top:-2px}
+#retailLanding .moreinfopanel{float:left;width:350px;overflow:hidden;position:relative;left:550px;padding:30px 20px}
+#retailLanding .moreinfopanel ul li{padding-left:15px}
+#retailLanding .summarypanel .moreinfocontent{margin-bottom:20px}
+#retailLanding .summarypanel{float:left;overflow:hidden;position:relative;width:450px;left:550px;padding:30px 50px 0px 50px}
+#retailLanding .panelwhite-landing2{float:left;display:inline;width:450px;*width:420px;height:100%;padding:20px 50px;font-size:12px}
+#retailLanding .panel-landing-link{float:right}
+/*Lightbox*/
+#lightbox-contact,#lightbox-calculator{display:none;position:absolute;z-index:100}
+#lightbox-contact-bg,#lightbox-calculator-bg{display:none;position:absolute;height:100%;width:100%;top:0;left:0;background:#000;border:0px solid #cecece;z-index:1}
+#lightbox-contact .lightbox-link,#lightbox-calculator .lightbox-link{position:absolute;padding:10px 2px;margin-left:725px}
+#lightbox-contact .lightbox-link img,#lightbox-calculator .lightbox-link img{border:0px}
+.contactus-iframe{border:0;height:520px;width:770px;*width:785px}
+.calculator-iframe{border:0;height:520px;width:790px;*width:795px}
+.lightbox-wrapper{margin:0 auto;padding:5px 0;width:770px;background:#fff}
+.lightbox-wrapper .lightbox-heading{margin:10px 0 20px 15px}
+.lightbox-wrapper .scoller-wrapper{margin:10px 15px;width:740px;height:320px;overflow:auto}
+.detailservice-col{float:left;display:inline;padding:0 15px;*padding:10px 15px;width:200px}
+.detailservice-row{clear:both}
+.lightboxicon-contact span,.lightboxicon-calculator span{margin-left:50px}
+/*calculator*/
+.calculator-wrapper{padding:5px 0;width:770px;height:180px}
+.calculator-row{clear:both;padding-bottom:30px}
+.butcalculator-row{clear:both;padding-top:20px}
+.calculator-col{float:left;display:inline;padding:0 15px;*padding:10px 15px;width:350px}
+.calculator-label{float:left;display:inline;width:185px;padding-right:5px;text-align:right}
+.calculator-field{float:left;display:inline;width:160px}
+.calculator-result-text{float:left;display:inline;width:175px;padding-right:5px;text-align:right}
+.calculator-result{float:left;display:inline;width:130px}
+.calculator-butblue{float:right;margin:0 5px}
+.calculator-butblue a{padding:8px 20px;display:block}
+
+
+
+/**************************** THEME *******************************/
+/*Help Directory*/
+.help-heading{border-bottom:1px solid #e5e5e5;line-height:3em}
+.panel-warning{/* Firefox 3.6+ */background:-moz-linear-gradient(#fff, #f5f5f5 100%);/* Safari 4+, Chrome 1+ */background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#f5f5f5 100%));/* Safari 5.1+, Chrome 10+ */background-image:-webkit-linear-gradient(#fff, #f5f5f5 100%);/* Opera 11.10+ */background-image:-o-linear-gradient(#fff, #f5f5f5 100%);behavior: url("../bcms-resources/global/js/pie.htc");-pie-background:linear-gradient(#fff, #f5f5f5 100%);-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;-pie-border:border-radius(8px);border:1px solid #ccc;padding:0 10px 10px 10px;width:360px;height:80px;margin-top:20px;margin-left:45px}
+.help-wrapper ul{list-style:none}
+.panel-warning ul{list-style:none}
+.panel-warning ul li.warning-heading{background:url("../bcms-resources/retail/images/icon-warning.gif") no-repeat 0 -1px transparent;height:28px;margin-left:-25px;*margin-left:0}
+.panel-warning ul li.warningicon-contact{background:url("../bcms-resources/retail/images/icons-comms.gif") no-repeat 0 0 transparent;height:45px}
+/*Landing Campaign*/
+#retailLanding .landing-content-bodywrapper{float:left;width:940px}
+#retailLanding .moreinformation{margin-top:-4px;width:100%;float:left;overflow:hidden;position:relative;background:#fff;}
+#retailLanding .summary{width: 100%;position:relative;right:550px;/* width of the right area */float:left;background-color:#4B4B4B;}
+#retailLanding .moreinfopanel ul{list-style:none;padding-top:30px}
+#retailLanding .moreinfopanel ul{_margin-left:-10px}
+#retailLanding .moreinfopanel ul li{background:transparent url("../bcms-resources/retail/images/bullet-greyarrow.gif") no-repeat scroll 0 4px;margin-bottom:10px}
+#retailLanding .moreinfopanel ul li a{_padding-left:10px;color:white;}
+#retailLanding .panel-landing{/* Firefox 3.6+ */background:-moz-linear-gradient(#fff, #f5f5f5 100%);/* Safari 4+, Chrome 1+ */background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#f5f5f5 100%));/* Safari 5.1+, Chrome 10+ */background-image:-webkit-linear-gradient(#fff, #f5f5f5 100%);/* Opera 11.10+ */background-image:-o-linear-gradient(#fff, #f5f5f5 100%);behavior: url("../bcms-resources/global/js/pie.htc");-pie-background:linear-gradient(#fff, #f5f5f5 100%);-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;-pie-border:border-radius(8px);border:1px solid #ccc;padding:0 10px 20px 10px;*padding:10px;width:100%;height:100px;margin-top:20px;margin-bottom:40px}
+/*Lightbox*/
+.bglightbox-white{background:#fff}
+.panel-lightbox{width:350px;margin:10px 15px}
+.panel-lightbox ul{list-style:none}
+.panel-lightbox ul li.lightboxicon-contact{background:url("../bcms-resources/retail/images/icons-comms.gif") no-repeat 0 0 transparent;height:44px}
+.panel-lightbox ul li.lightboxicon-calculator{background:url("../bcms-resources/retail/images/icons-comms.gif") no-repeat -300px -270px transparent;height:44px}
+/*Contact*/
+.alphabet-bggrey{clear:both;background:#ccc;padding:5px 15px;margin-right:15px;width:665px}
+/*calculator*/
+.panel-results{float:left;display:inline;padding:10px 15px 0 15px;width:320px;height:100%;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;-pie-border:border-radius(8px);border:1px solid #ccc}
+.calculator-butblue a{background:url("../bcms-resources/retail/images/but-bluebg.gif") repeat-x left top transparent;z-index:1}
+.calculator-butblue a:hover{background:#00b1e8}
+.calculator-row .tooltip{background:url("../bcms-resources/retail/images/icon-help.jpg") repeat-x left top transparent;height:12px;width:12px;padding:3px;margin:2px}
+
+
+
+/**************************** TYPOGRAPHY *******************************/
+/*Help Directory*/
+.detailservice-heading-blue{color:#00b1eb;font-size:1.500em}
+.help-heading{color:#4c4a4b;font-size:0.875em}
+.help-subheading{color:#00b1eb;font-size:0.750em}
+.help-wrapper ul{color:#00b1eb;font-size:0.750em}
+.panel-warning nav ul li{font-size:0.750em;text-decoration:none}
+.warningicon-contact span{font-weight:normal;color:#4c4b4a;text-decoration:none}
+.warning-heading{font-weight:bold;color:#4c4b4a;font-size:0.875em}
+.warning-contact{font-weight:bold;color:#4c4b4a;font-size:1.125em;text-decoration:none}
+/*Landing Campaign*/
+
+#retailLanding .moreinfopanel ul li,.moreinfopanel ul li a:link,.moreinfopanel ul li a:visited,.moreinfopanel ul li a:active{font-size:0.875em}
+#retailLanding .summarypanel a.button{font-size:0.750em}
+#retailLanding .panel-landing p{color:#4c4b4a;font-size:0.750em}
+/*Lightbox*/
+.lightbox-wrapper .lightbox-heading{color:#00b1eb;font-size:1.500em}
+.alphabet-bggrey{font-weight:bold;color:#00b1eb;font-size:0.750em}
+.detailservice-col .subheading{font-weight:bold;color:#4c4a4b;font-size:0.750em}
+.panel-lightbox nav ul li{font-size:0.750em;text-decoration:none}
+.lightboxicon-contact span{font-weight:normal;color:#4c4b4a;text-decoration:none}
+/*calculator*/
+.calculator-col label,.calculator-col input,calculator-col select{font-size:0.750em;color:#4c4b4a}
+.butcalculator-row a{font-size:0.750em}
+.calculator-result-text{font-size:0.750em;color:#4c4b4a}
+.calculator-result{font-weight:bold;font-size:0.750em;color:#4c4b4a}
+.calculator-butblue a:link,.calculator-butblue a:visited,.calculator-butblue a:active{color:#fff;text-decoration:none}
+.calculator-butblue a{color:#fff;font-weight:bold;font-size:0.750em;text-decoration:none}
+.calculator-butblue a:hover{color:#fff}

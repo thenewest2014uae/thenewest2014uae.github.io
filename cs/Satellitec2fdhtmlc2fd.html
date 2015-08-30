@@ -1,0 +1,106 @@
+function calcIban()
+{
+	var userInput = document.getElementById("acc_no").value;
+	
+	if(userInput == "")
+	{
+		document.getElementById("iban_no").value = "";
+		document.getElementById("error_msg").innerHTML = "! Please enter a valid account number";
+	}
+	else
+	{
+	
+		document.getElementById("error_msg").innerHTML = "&nbsp;";
+		
+		var country_code="AE";
+		var country_num="019";
+		var std_input="101400";
+		var strinput = userInput.toString();
+		var inputLen = strinput.length;
+		var padZero="";
+		
+		
+		
+		for(i=0; i<(16-inputLen); i++)
+		{
+			padZero = padZero+"0";
+		}
+		var paddedAccNum=padZero.concat(strinput);
+		var finalAccNum=country_num.concat(paddedAccNum,std_input);
+		finalAccNum = finalAccNum.slice(-24);
+		
+		firststrToMod = finalAccNum.substr(0,9);
+		secstr = finalAccNum.substr(9);
+		
+		firststrToMod = new Number(firststrToMod);
+		firststrToMod = firststrToMod.valueOf();
+		
+		firststrToMod = firststrToMod%97;
+		firststrToMod = firststrToMod.toString().concat(secstr);
+		
+		//to Mod second time
+		
+		var secIteration = firststrToMod;
+		
+		firststrToMod = secIteration.substr(0,9);
+		secstr = secIteration.substr(9);
+		
+		firststrToMod = new Number(firststrToMod);
+		firststrToMod = firststrToMod.valueOf();
+		
+		firststrToMod = firststrToMod%97;
+		firststrToMod = firststrToMod.toString().concat(secstr);
+		
+		//to Mod third time
+		
+		var thirdIteration = firststrToMod;
+		
+		firststrToMod = thirdIteration.substr(0,10);
+		
+		firststrToMod = new Number(firststrToMod);
+		firststrToMod = firststrToMod.valueOf();
+		
+		firststrToMod = firststrToMod%97;
+		
+		var checksum = 98 - firststrToMod;
+		var IBANno;
+		var finalchecksum;
+		//var checkLen = checksum.length;
+		
+		
+		if(checksum < 10)
+		{
+			finalchecksum = checksum.toString();
+			finalchecksum = "0"+finalchecksum;
+			IBANno = country_code.concat(finalchecksum,country_num,paddedAccNum);
+			document.getElementById("iban_no").value = IBANno;
+			
+			
+			
+		}
+		else
+		{
+			IBANno = country_code.concat(checksum,country_num,paddedAccNum);
+			document.getElementById("iban_no").value = IBANno;
+		}
+	
+	}
+			
+	
+}
+
+function isNumberKey(evt)
+      {
+         var charCode = (evt.which) ? evt.which : event.keyCode
+         if (charCode > 31 && (charCode < 48 || charCode > 57))
+            return false;
+
+         return true;
+      }
+	  
+function clearFields()
+{
+	document.getElementById("acc_no").value = "";
+	document.getElementById("iban_no").value = "";
+	document.getElementById("error_msg").innerHTML = "&nbsp;";
+}

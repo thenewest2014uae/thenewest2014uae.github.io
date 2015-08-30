@@ -1,0 +1,200 @@
+a {
+    color: #00A4E8;
+    text-decoration: none;
+}
+div.RightPane {
+    height: auto;
+    wi dth: 535px;
+    display: inline;
+    float: left;
+    height: auto;
+    margin: 0;
+    padding: 0 0 0 25px;
+    wi dth: 515px;
+	color: #666666;  
+}
+
+div.RightPane ul{
+	margin:13px 0 10px;
+	
+}
+div.RightPane ul ul{
+	margin-top:5px;
+}
+div.RightPane ul.simple{list-style-type:disc;margin-left:30px;}
+div.RightPane ul.simple li{background-image:none}
+div.RightPane ul.BreadCrumb {
+    font-size: 9px;
+    margin: 0 0 30px;
+	list-style: none outside none;    
+    padding: 0;
+}
+div.RightPane ul.BreadCrumb li {
+    background: url("../uaelocator/images/iban_calculator/separator1.html") no-repeat scroll 0 5px transparent;
+    color: #999999;
+    display: inline;
+    line-height: 1em;
+    padding: 0 5px 0 8px;
+}
+div.RightPane ul.BreadCrumb li.FirstChild,
+div.RightPane ul.BreadCrumb li:first-child{
+	padding-left:0;
+	background:none;
+}
+ul.BreadCrumb li a{
+	color:#ccc;
+}
+div.RightPane p{
+	margin:15px 0;
+}
+h3, h3.HR {
+    border-bottom: 1px solid #DBF2FC;
+    clear: both;
+    padding-bottom: 4px;
+}
+
+h3 {
+    color: #00A4E8;
+    font-size: 14px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+h3, h4, h5, h6 {
+    font-size: 12px;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    
+}
+div.RightPane div.ContactDetail li{
+	padding:5px 0;
+	border-top:#DBF2FC solid 1px;
+	background:none;
+}
+div.RightPane div.ContactUsBox ul{
+	margin:0;
+}
+div.RightPane div.ContactUsBox li,
+div.ContactUsBox address{
+	display:inline;
+	float:left;
+	width:215px;
+	padding:3px 0;
+	border-top:#DBF2FC solid 1px;
+	background:none;
+}
+div.RightPane ul.DirectoryLoc li{
+	padding:2px 15px 15px 10px;
+	width: 240px;
+	float: left;
+}
+ul.DirectoryLoc em{
+	margin:0 10px 0 0;
+	font-style:normal;
+	color:#00A4E8;
+}
+div.RightPane ul.Sitemap{
+	display:inline;
+	float:left;
+}
+div.RightPane ul.Sitemap li{
+	display:inline;
+	float:left;
+	width:255px;
+	padding:0;
+	margin:10px 0 15px 25px;
+	background:none;
+}
+ul.Sitemap li h3{
+	margin:0;
+	border:0;
+	padding-bottom:4px;
+	color:#00B9F2;
+	font-size:11px;
+}
+div.RightPane ul.Sitemap ul{
+	margin:0;
+	width:255px;
+	padding:7px 0 0;
+	border-top:#DBF2FC solid 1px;
+}
+div.RightPane ul.Sitemap li li{
+	display:block;
+	clear:left;
+	float:left;
+	width:245px;
+	padding:0;
+	margin:0;
+}
+div.RightPane ul.Sitemap li li a{
+	clear:left;
+	float:left;
+	display:block;
+	padding:1px 20px 3px 10px;
+	color:#666;
+	background:url(/uaelocator/images/iban_calculator/bullet04_en_gb.gif) 0 5px no-repeat;
+}
+div.RightPane ul.Sitemap li li a:hover{
+	color:#00A4E8;
+}
+
+div.RightPane ul.Sitemap ul ul{
+	float:left;
+	padding:2px 0 0;
+	margin:3px 0 8px 0;
+	border-color:#EDF8FD;
+}
+div.RightPane ul.Sitemap li li li{
+	width:237px;
+}
+div.RightPane ul.Sitemap li li li a{
+	color:#999;
+	font-size:10px;
+	padding-left:20px;
+	background:url(/uaelocator/images/iban_calculator/dash01.gif) 10px 9px no-repeat;
+}
+div.RightPane ul.Sitemap li li li ul{
+	width:230px;
+	margin-top:0;
+	border:0;
+}
+div.RightPane ul.Sitemap li li li li{
+	width:209px;
+}
+div.RightPane ul.Sitemap li li li li a{
+	color:#989898;
+	padding-left:30px;
+	background:url(/uaelocator/images/iban_calculator/dash01.gif) 20px 9px no-repeat;
+}
+div.RightPane ul.FinePrint li{
+	background:none;
+	padding-left:0;
+	font-size:9px;
+	color:#999;
+}
+div.RightPane p.FinePrint{
+	clear:both;
+	float:left;
+	font-size:9px;
+	color:#999;
+}
+ul.FinePrint li a{
+	color:#F58025;
+}
+div.RightPane table.services tr th{padding:0px;}
+div.RightPane table.services tr th.first{background:#ccf1fc url(/uaelocator/images/iban_calculator/left-top.gif) left top no-repeat;  width: 19px}
+div.RightPane table.services tr th.last{background:#ccf1fc url(/uaelocator/images/iban_calculator/right-top.gif) right top no-repeat; width: 18px}
+div.RightPane table.services tr th.middle{padding:0 4px;background-color:#ccf1fc;height:45px;border-top:#00b9f2 1px solid;border-left:#00b9f2 1px solid;}
+div.RightPane table.services tr th.noLeft,div.RightPane table.services tr td.noLeft{border-left:none}
+div.RightPane table.services tr.even{background-color:#ebfafe;}
+div.RightPane table.services tr td{padding:4px 0;border-left:1px #00b9f2 solid;}
+div.RightPane table.services tr td.last{border-right:1px #00b9f2 solid;}
+
+div.RightPane table.services tr.last td.first{background:#ebfafe url(/uaelocator/images/iban_calculator/left-bottom.gif) left bottom no-repeat; width: 16px;border-bottom:none;border-left:none}
+div.RightPane table.services tr.last td.last{background:#ebfafe url(/uaelocator/images/iban_calculator/right-bottom.gif) right bottom no-repeat;  width: 18px;border-bottom:none;border-left:none;border-right:none}
+div.RightPane table.services tr.last td{border-bottom:1px solid #00b9f2;}
+
+
+#maincontent{width:950px;}

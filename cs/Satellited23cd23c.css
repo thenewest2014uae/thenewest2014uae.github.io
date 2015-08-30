@@ -1,0 +1,154 @@
+body {
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #036;
+	font-size: 100%;
+	background: #F2F2F2 url(/bcms-resources/retail/images/eagle.png) repeat-y scroll center top;
+}
+article {
+	width: 980px;
+	margin: 20px auto;
+	padding: 0px 15px;
+	background-color: #FFFFFF;
+}
+
+header {
+	padding: 25px 0 10px;
+	margin: 0 0 25px 0;
+	border-bottom: 1px solid #A3DDF3;
+}
+
+header img {
+	padding-left: 20px;
+	margin-bottom: 15px;
+}
+
+#content {
+	padding: 0px 20px;
+}
+form {
+	margin: 15px;
+}
+form p {
+	margin-bottom: 8px;
+}
+
+footer {
+	text-align: center;
+	padding: 20px 0;
+	font-size: 71%;
+}
+.premier_league_txt {
+	font-weight: bold;
+	margin-top: 10px;
+	
+}
+.empty{	
+	color: #C33;
+	font-weight: bold;
+}
+footer{clear: both;}
+input {
+	margin: 5px 5px 8px 5px
+}
+#locatorContainer {
+	border: 2px solid #E5E3DF;
+	display:none;
+}
+
+/*filter below line of codes*/
+body {font-family:verdana, arial, helvetica, sans-serif;color:#036;font-size:100%}
+hr {margin:2px 0 0;padding:0}
+
+#sidebar {
+	overflow: auto;
+	height: 400px;
+	width: 413px;
+	float: left
+}
+#map{
+	width:523px;
+	height: 400px;
+}
+.resultHeader {
+	background: #02A3E7 url(/bcms-resources/retail/images/bluebarbackground.gif) repeat-x;
+	height: 27px;
+}
+#rhAddress {
+	float: left;
+	color: #fff;
+	padding: 5px 0 0 5px;
+	font-weight: bold
+}
+#rhDistance {
+	float: right;
+	color: #fff;
+	padding: 5px 5px 0 0;
+	font-weight: bold
+}
+.result {
+	clear: both;
+	font-size: 0.7em;
+	border-bottom: 1px solid #02A3E7;
+	background-color: #fff;
+}
+.result:hover {
+	background-color: #e9fcff
+}
+.rName, .rAddress {
+	float: left;
+	clear: both;
+	padding: 0 5px
+}
+.rName {
+	width: 190px
+}
+.rDistance {
+	width: 75px;
+	text-align: right;
+	font-weight: bold
+}
+.rAddress {
+	width: 265px
+}
+.clearFloat {
+	clear: both;
+	height: 1px;
+	overflow: hidden
+}
+.rDistance {
+	float: right;
+	padding-right: 5px
+}
+
+
+.markerTextBox {
+	font-size: 0.7em;
+	width: 270px;
+	height: 180px;
+	overflow: auto;
+	margin: 8px 0px;
+}
+
+
+label {
+	font-size: 100%;
+}
+
+#noresult {
+	text-align: center;
+	margin: 10px;
+	font-weight: bold;
+}
+div#modularContent {
+	width: 94%
+}
+.clearboth {
+	clear: both
+}
+#error {
+	color: #C33;
+	font-weight: bold;
+	display: none;
+}
+
+

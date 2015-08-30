@@ -1,0 +1,37 @@
+/**************************** LAYOUT *******************************/
+.header{float:left;height:37px;width:945px;padding:0 15px 10px;margin-top:4px}
+#logo, #logo-barclays{float:left;display:block;height:34px;width:190px;background:url("../bcms-resources/retail/images/logo-barclays.gif") no-repeat 2px 1px}
+#logo a, #logo-barclays a{display:block;height:33px;width:187px}
+#logo a span, #logo-barclays a span{display:none}
+#header-membership dl{float:right;margin:0}
+#header-membership dt, #header-membership dd{float:left;margin:0 0 0 11px}
+#header-membership dt{padding-top:9px}
+.header-butblue, .header-butgreen, .header-butCallToAction, .header-butFunctional{float:right;margin:0 5px}
+.header-butblue a, .header-butgreen a, .header-butCallToAction a, .header-butFunctional a{padding:8px 20px;display:block}
+#retailLanding .header{float:left;height:37px;width:942px;padding:0 11px 10px;margin-top:4px}
+
+/**************************** THEME *******************************/
+.header-butblue a, .header-butCallToAction a{background:url("../bcms-resources/retail/images/but-bluebg.gif") repeat-x left top transparent;z-index:1}
+.header-butgreen a, .header-butFunctional a{background:url("../bcms-resources/retail/images/but-greenbg.gif") repeat-x left top transparent;z-index:1}
+.header-butblue a:hover, .header-butCallToAction a:hover{background:#00b1e8}
+.header-butgreen a:hover, .header-butFunctional a:hover{background:#bed630}
+.header-butgreen a span.icon-padlock, .header-butFunctional a span.icon-padlock{background:url("../bcms-resources/retail/images/icon-padlock.gif") no-repeat left top;height:14px;width:30px;z-index:100;padding:7px 7px;margin-left:10px}
+
+
+
+/**************************** TYPOGRAPHY *******************************/
+#header-membership dt{font-size:0.689em;font-weight:bold;color:#333}
+.header-butblue a:link,.header-butblue a:visited,.header-butblue a:active, .header-butCallToAction a:link,.header-butCallToAction a:visited,.header-butCallToAction a:active{color:#fff;text-decoration:none}
+.header-butblue a, .header-butCallToAction a{color:#fff;font-weight:bold;font-size:0.750em;text-decoration:none}
+.header-butgreen a, .header-butFunctional a{color:#006991;font-weight:bold;font-size:0.750em;text-decoration:none}
+.header-butblue a:hover, .header-butCallToAction a:hover{color:#fff}
+.header-butgreen a:hover, .header-butFunctional a:hover{color:#006991}
+
+/* Code for Retail Branch ATM Locator page,BCMS-1108*/
+#locatorImg{margin-top:-45px;}
+
+#locatorImg header{float:left;height:70px;width:945px;
+	padding:0 15px 0px;
+	margin: 0 0 25px 0;
+	border-bottom: 1px solid #A3DDF3;
+}

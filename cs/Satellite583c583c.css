@@ -1,0 +1,66 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block}
+
+html {
+    font-size: 100%; /* 1 */
+    overflow-y: scroll; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 3 */
+    -ms-text-size-adjust: 100%; /* 3 */
+}
+html {overflow: -moz-scrollbars-vertical;overflow-y:scroll}
+body{font-family:Verdana,Geneva,sans-serif;font-size:100%;background:#e6e6e6 url(/bcms-resources/retail/premier/images/bggradient-premier.gif) repeat-x left top;/* Firefox 3.6+ */background:-moz-linear-gradient(#000, #e6e6e6 775px);/* Safari 4+, Chrome 1+ */background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#000), to(#e6e6e6 775px));/* Safari 5.1+, Chrome 10+ */background-image:-webkit-linear-gradient(#000, #e6e6e6 775px);/* Opera 11.10+ */background-image:-o-linear-gradient(#000, #e6e6e6 775px)}
+html,body,div,ul,ol,li,h1,h2,h3,table,tr,th,td,nav,aside,section{margin:0;padding:0}
+.clear{clear:both;height:0;overflow:hidden}
+a:link,a:visited,a:active{color:#006991;text-decoration:none}
+a:hover{text-decoration:underline}
+a img{border:0}
+p {color:#4c4a4b;font-size:12px}
+.styled-table caption, .styled-table td, .styled-table th{color:#4c4a4b;font-size:12px}
+.page-wrapper{background:transparent url(/bcms-resources/retail/premier/images/bg-premier.gif) no-repeat left top;width:976px;margin:0 auto;position:relative;z-index:1}
+.maincontent-wrapper{padding-top:100px}
+.pagelightbox-wrapper{width:976px;background:#000;opacity:0.5;position:relative;z-index:1}
+
+.pdflink {background:transparent url(/bcms-resources/global/images/pdf.gif) no-repeat 0 0 !important;padding: 2px 0 2px 30px !important;margin:10px 0;font-size:12px}
+.pdflink span {color:#666 !important}
+
+.styled-table{margin:10px 10px 0 0}
+.styled-table table, 
+table.styled-table {clear:both;table-layout:fixed;border:1px solid #E0E0E0;border-collapse:separate;margin-bottom:20px;margin-top:-11px;border-width:1px 1px 0 0}
+.styled-table table td, 
+table.styled-table td,
+.styled-table table th, 
+table.styled-table th {border:1px solid #E0E0E0;border-width:0 0 1px 1px}
+
+.styled-table table caption, 
+table.styled-table caption {border:1px solid #00b1e8;padding:5px 10px;text-align:left;font-weight:bold;color:#fff;background-color:#00b1e8}
+.styled-table table tr, 
+table.styled-table tr {position:relative;border:0}
+.bg-grey-panel{background-color:#E0E0E0}
+.bg-normal-white{}
+
+.styled-table table tr.evenrow, 
+table.styled-table tr.evenrow {background-color:#FFF}
+
+.styled-table table tr td, 
+table.styled-table tr td, 
+.styled-table table tr th, 
+table.styled-table tr th {padding:5px 10px;text-align:left;vertical-align:top}
+
+/**************************** TERMS AND CONDITIONS SECTION *******************************/
+.terms-conditions-content{margin: 1px 0 0 15px;color:#A9A9A9}
+.terms-conditions-paragraph{margin-right: 1px}
+
+/**************************** SEARCH BOX *******************************/
+.search-image{float:right;margin:-27px -8px 5px 9px}
+#search{size:5px}
+
+/**************************** BUTTONS IN TABLE *******************************/
+.table-butgreen{margin:10px 15px 4px 10px}
+.table-butgreen{clear:right}
+.table-butgreen a{padding:8px 20px;display:block}
+.table-butgreen a{background:url("../bcms-resources/retail/images/but-greenbg.gif") repeat-x left top transparent;z-index:1}
+.tab-butgreen a:hover{background:#bed630}
+.table-butgreen a{color:#006991;font-weight:bold;font-size:0.75em;text-decoration:none;text-align:center}
+.tab-butgreen a:hover{color:#006991}
+
+/**************************** Landing campaign page *******************************/
+.landing-page-wrapper{background:transparent url(/bcms-resources/retail/premier/images/bg-premier.gif) no-repeat left top;width:976px;margin:0 auto;position:relative;z-index:1}

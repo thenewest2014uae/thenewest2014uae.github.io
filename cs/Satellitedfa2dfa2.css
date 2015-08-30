@@ -1,0 +1,88 @@
+/**************************** LAYOUT *******************************/
+.panel-wrapper{position:relative;z-index:10;width:740px;float:left}
+.bg-panel,.bg-panel-w700,.bg-panel-w740{margin:10px 0 10px 15px;padding-top:2px;float:left;display:inline}
+.product-panel{width:320px;height:182px;margin-left:2px;position:relative}
+section div.bg-panel div.product-panel {width:340px}
+.promo-panel{margin-left:2px}
+.advice-panel,.image-panel-leftside{margin-left:2px}
+.panel-heading,.panel-heading-white,.advice-panel .panel-subheading,.panel-promoheading-white,.panel-heading-white2,.panel-promoheading-white2{margin-left:20px;padding-top:10px;height:30px}
+.panel-campaignheading{padding-top:10px;height:30px}
+.panel-listheading{margin:5px 0}
+.panel-productcontent{position:absolute;z-index:0;top:0;right:0;margin:0;padding:10px 20px;width:180px;height:162px}
+.panel-productcontent{_float:right;_position:relative;_margin:-182px 0 0 0}
+.panel-productcontent ul{margin-left:20px}
+.product-panel .panel-butgrey{float:right;margin:-43px 10px 10px 218px;position:relative}
+.product-panel .panel-butgrey a{padding:8px 20px;display:block}
+.panel-advicecontent{height:140px;padding:0px 20px}
+.panel-advicecontent ul,.panel-advicecontent ol,.panel-servicecontent ul,.panel-servicecontent ol{margin-left:20px}
+.advice-panel-but .panel-butgrey{float:right;margin:0 10px 10px 0}
+.advice-panel-but .panel-butgrey a{padding:8px 20px;display:block}
+.service-panel{position:relative;margin-left:2px;height:184px}
+.service-panel-subheading{position:absolute;top:0;right:4px;padding:10px 20px;width:160px;height:62px}
+.panel-servicecontent{margin:0 20px}
+.panel-servicecontent p{margin-top:5px}
+.service-panel-but .panel-butgrey{float:right;margin:-14px 10px 10px 218px;*margin:-22px 10px 10px 218px;position:absolute}
+.service-panel-but .panel-butgrey a{padding:8px 20px;display:block}
+.promo-panel a.promo-toggle{float:right;width:16px;margin:-30px 16px 0 0;text-decoration:none;position:relative}
+.panel-promocontent,.panel-promocontent2{position:absolute;padding:1em 0 0 20px;width:320px}
+.panel-promo-text{padding:0 20px 0 0}
+.promo-panel-but {margin:0;padding:0}
+.promo-panel-but .panel-butgrey{float:right;margin:0 10px 10px 0;position:relative}
+.promo-panel-but .panel-butgrey a{padding:8px 20px;display:block}
+.panel-campaigncontent{float:right;margin:-220px 2px 0 0;padding:10px 20px;width:410px;height:200px;position:relative}
+.panel-campaigncontent p{margin-top:5px}
+.panel-campaigncontent ul{margin-left:20px;_margin-top:-15px}
+.campaign-panel-but .panel-butgrey{float:right;margin:-40px 12px 0 0;position:relative}
+.campaign-panel-but .panel-butgrey a{padding:8px 20px;display:block}
+.panel-servicescontent-w270{float:right;margin:-120px 4px 0 0;padding:10px 20px;width:230px;height:98px;position:relative}
+.panel-servicescontent-w270 p{margin-top:5px}
+.panel-servicescontent-w270 .panel-butgrey{float:right;margin:0 0 10px 124px;padding-top:0;_padding-top:0;position:absolute}
+.panel-servicescontent-w270 .panel-butgrey a{padding:8px 20px;display:block}
+/*Retails grey button*/
+.panel-productcontent a.button{float:right}
+.panel-advicecontent a.button{float:right}
+.panel-promocontent a.button{float:right;*margin-right:10px}
+.panel-servicecontent a.button{float:right}
+.panel-campaigncontent a.button{float:right}
+#retailLanding  .summarypanel a.button{float:right}
+
+/**************************** THEME *******************************/
+.bg-panel{background:url("../bcms-resources/retail/images/bg-panel.gif") no-repeat left top;width:346px;height:224px;position:relative;overflow:hidden}
+.bg-panel-w740{background:url("../bcms-resources/retail/images/bg-panel-w740.gif") no-repeat left top;width:748px;height:128px;position:relative;overflow:hidden}
+.panel-productcontent,.service-panel-subheading,.panel-servicescontent-w270{background:#00b1eb url("../bcms-resources/retail/images/bg-tab-heading.gif") repeat-x 0 0;opacity:0.9;/* Firefox 3.6+ */background:-moz-linear-gradient(#006991, #00b1eb 100%);/* Safari 4+, Chrome 1+ */background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#006991), to(#00b1eb 100%));/* Safari 5.1+, Chrome 10+ */background-image:-webkit-linear-gradient(#006991, #00b1eb 100%);/* Opera 11.10+ */background-image:-o-linear-gradient(#006991, #00b1eb 100%)}
+.advice-panel,.promo-panel-heading{background:#00b1e8 url("../bcms-resources/retail/images/bg-tab-heading.gif") repeat-x 0 0;/* Firefox 3.6+ */background:-moz-linear-gradient(#006991, #00b1eb 100%);/* Safari 4+, Chrome 1+ */background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#006991), to(#00b1eb 100%));/* Safari 5.1+, Chrome 10+ */background-image:-webkit-linear-gradient(#006991, #00b1eb 100%);/* Opera 11.10+ */background-image:-o-linear-gradient(#006991, #00b1eb 100%);width:340px;height:40px}
+.panel-promocontent,.panel-promocontent2{background:#00b1eb url("../bcms-resources/retail/images/bg-tab-content.gif") repeat-x 0 0;/* Firefox 3.6+ */background:-moz-linear-gradient(#006991, #00b1eb 100%);/* Safari 4+, Chrome 1+ */background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#006991), to(#00b1eb 100%));/* Safari 5.1+, Chrome 10+ */background-image:-webkit-linear-gradient(#006991, #00b1eb 100%);/* Opera 11.10+ */background-image:-o-linear-gradient(#006991, #00b1eb 100%)}
+.panel-butgrey a{background:url("../bcms-resources/retail/images/but-greybg.gif") repeat-x left top transparent;z-index:1;opacity:1.0}
+.panel-butgrey a:hover{background:#b7b7b7}
+.promo-panel a.promo-toggle{background: url("../bcms-resources/retail/images/but-grey16x16-arrows.gif") no-repeat 0 -32px transparent}
+.promo-panel a.promo-explore,.promo-panel a.promo-explore2{background: url("../bcms-resources/retail/images/but-grey16x16-arrows.gif") no-repeat 0 0 transparent !important}
+.bg-panel-w700{background:url("../bcms-resources/retail/images/bg-panel-w700.gif") no-repeat left top;width:706px;height:222px;position:relative;overflow:hidden}
+/*Retail grey button*/
+a.button{background:url("../bcms-resources/retail/images/but-greybg.gif") repeat-x left top transparent;margin:8px 0px;padding:6px 15px 8px 15px;position:relative;z-index:120;display:block;opacity:1.0;height:15px;overflow:hidden}
+a:hover.button{background:#b7b7b7}
+
+
+/**************************** TYPOGRAPHY *******************************/
+.panel-heading,.panel-campaignheading{font-weight:bold;color:#006991;font-size:14px}
+.panel-heading-white,.panel-promoheading-white,.panel-heading-white2,.panel-promoheading-white2{font-weight:bold;color:#fff;font-size:14px}
+.panel-subheading{font-weight:bold;color:#fff;font-size:14px}
+.product-panel .panel-listheading{color:#fff;font-size:12px;font-weight:bold}
+.panel-productcontent,.panel-promocontent,.panel-productcontent2,.panel-promocontent2{color:#fff;font-size:0.750em}
+.panel-promocontent p,.panel-promocontent2 p{color:#fff}
+.panel-productcontent ul, .panel-productcontent ol, .panel-productcontent2 ul, .panel-productcontent2 ol, .panel-promocontent ul, .panel-promocontent ol, .panel-promocontent2 ul, .panel-promocontent2 ol {margin-left:1em}
+.panel-advicecontent .panel-listheading,.panel-campaigncontent .campaign-listheading{color:#4c4a4b;font-size:12px;font-weight:bold}
+.panel-advicecontent,.panel-campaigncontent,.panel-servicecontent,.panel-advicecontent,.panel-campaigncontent,.panel-servicecontent{color:#4c4a4b;font-size:0.750em}
+.panel-promo-rate{color:#fff;font-size:2.500em}
+.panel-promo-heading,.panel-servicescontent-w270 p{color:#fff;font-size:14px}
+.panel-promo-text {color:#fff}
+.panel-promo-text p {margin:0 0 1em}
+.panel-butgrey a{color:#006991;font-weight:bold;font-size:12px;text-decoration:none}
+.panel-butgrey a:hover{color:#006991}
+.bg-panel div.product-panel div.image-panel {_font-size:1px}
+/*Retails grey button*/
+a.button{color:#006991;font-weight:bold;text-decoration:none}
+a:hover.button{color:#006991}
+
+/* Updated for BCMS-1153,Removing additional space around promotion buttons.*/
+#retail-button div.bg-panel a.button {position: relative;right: -10px;}
+#retail-button div.bg-panel .panel-butgrey a{position: relative;right: -20px;}

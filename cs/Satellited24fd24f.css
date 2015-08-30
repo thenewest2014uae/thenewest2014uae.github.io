@@ -1,0 +1,23 @@
+/**************************** LAYOUT *******************************/
+.aside-wrapper{position:relative;float:left;display:inline;z-index:10}
+.asidelinks{width:220px;margin:10px 0;padding:2px 8px}
+.asidelinks ul{list-style:none;margin:5px}
+.asidelinks ul li{background: url("../bcms-resources/retail/images/bullet-greyarrow.gif") no-repeat 0px 6px}
+.asidelinks ul li span{margin:5px 0 5px 10px}
+.aside-morelinks{margin:0 0 0 100px;width:120px}
+a#aside-toggle span,a#aside-toggle .aside-explore span,a#aside-toggle2 span,a#aside-toggle2 .aside-explore2 span,a#aside-toggle3 span,a#aside-toggle3 .aside-explore3 span{margin:5px 0 5px 15px}
+.aside-content,.aside-content2,.aside-content3{margin:5px}
+
+
+
+/**************************** THEME *******************************/
+a#aside-toggle,a#aside-toggle2,a#aside-toggle3{background: url("../bcms-resources/retail/images/but-blue10x10-arrows.gif") no-repeat 0px -20px transparent;width:10px;height:10px}
+a.aside-explore,a.aside-explore2,a.aside-explore3{background: url("../bcms-resources/retail/images/but-blue10x10-arrows.gif") no-repeat 0px 0px transparent !important}
+
+
+
+/**************************** TYPOGRAPHY *******************************/
+.aside-heading{font-weight:bold;color:#4c4b4a;font-size:0.875em}
+.aside li a:hover{font-weight:normal}
+.asidelinks ul li a{font-weight:normal;font-size:0.750em}
+a#aside-toggle,a#aside-toggle2,a#aside-toggle3{font-weight:normal;font-size:0.625em}

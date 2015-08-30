@@ -1,0 +1,86 @@
+/*Common*/
+body{background:#f2f2f2 url(/bcms-resources/retail/images/bg-eagles.jpg) repeat-x center top;font:12px verdana;color:#036;margin:0;padding:0}
+ul,ol,li,h1,h2,h3,table,tr,th,td{margin:0;padding:0}
+img{border:0}
+a {text-decoration:none}
+h1{font:18px verdana}
+#page{margin:5px auto;width:982px}
+#pageheader{background:transparent url(/bcms-resources/retail/images/bg-white-curvedbox.gif) no-repeat left top;overflow:hidden;width:967px;height:155px;}
+#pagefooter{background:transparent url(/bcms-resources/retail/images/bg-white-curvedbox.gif) no-repeat left bottom;overflow:hidden;width:967px;height:25px}
+/*Header*/
+.branding img{float:left;margin:20px 0 20px 30px}
+.headerbar{clear:both;background:#fff url(/bcms-resources/retail/images/headerbar.gif) repeat-x left top;margin:5px 10px;height:35px;width:947px}
+.global-navigation{float:right;margin-top:15px;margin-right:15px;overflow:hidden}
+.global-navigation ul{list-style:none outside none;margin:0;padding:0;display:inline}
+.global-navigation li{display:inline;font-weight:bold;font-size:11px;color:#00a4e8;float:left;margin:0;margin-right:10px;padding-top:3px}
+.global-navigation li a{color:#00a4e8}
+.global-navigation li a:hover{color:#036}
+.options-tabs{margin: 8px 10px 0px 10px;overflow:hidden;padding:6px 0px;_padding:0px;padding-left:20px}
+.options-tabs ul{float:left;list-style-type:none;padding:5px 0 0 0}
+.options-tabs li{float:left;margin-right:5px;list-style-type:none}
+.options-tabs li{display:block;font-size:12px;font-weight:bold}
+.options-tabs li span{padding:1px 15px 9px 15px;display:block}
+.options-tabs li.current,.options-tabs li.current span{background:url(/bcms-resources/retail/images/personal-sprite.gif) no-repeat -721px -292px;display:block}
+.options-tabs li.current a span{background-position:right -237px;margin-left:15px;padding: 5px 15px 5px 0}
+.options-tabs li.current a:hover span,.options-tabs li.current a:focus span{color:#007eb6}
+.options-tabs li a:hover{color:#ccc}
+.options-tabs li.current a, .options-tabs li.current a:visited{color:#036}
+.options-tabs li a,.options-tabs li a:visited{color:#fff}
+/*Content*/
+#content{clear:both;background:#fff;padding:0 6px 0 6px;width:956px;overflow:hidden}
+.contentbox{float:left;width:700px}
+#scriptbox{float:left;background:url(/bcms-resources/retail/images/bg-boxtext.gif) no-repeat left top;height:76px;width:700px;text-align:center}
+#scriptbox h1{margin:5px}
+#animebox{float:left;background:url(/bcms-resources/retail/images/bg-boxanime.gif) no-repeat left top;height:434px;width:700px}
+#animebox img{margin:15px}
+#animation{width:665px;height:390px}
+#prev{font-size:110%;color:#00a4e8;float:left;margin:0 10px; font-weight:bold;}
+#next{font-size:110%;color:#00a4e8;float:right;margin:0 10px; font-weight:bold;}
+#prev a,#next a{color:#00a4e8;}
+#prev a:hover,#next a:hover{color:#036;}
+.navbox-body a.selected {background-color:#D6F1FC;}
+.navbox-body li.selected {background-color:#D6F1FC;}
+/*Side*/
+#sidebar{float:right;width:244px}
+.navbox{background:url(/bcms-resources/retail/images/side-white-box.jpg) no-repeat left bottom;padding-bottom:20px;margin-bottom:5px}
+.navbox-header{background:url(/bcms-resources/retail/images/sidebar.jpg) no-repeat left top;margin:0 12px;padding-top:2px;height:29px;width:220px}
+.navbox-header h2{font:12px verdana;color:#fff;margin: 5px 10px}
+.navbox-body{background:url(/bcms-resources/retail/images/side-white-boxmid.gif) repeat-y left top;overflow:hidden;padding:4px 10px}
+.navbox-body ul{list-style:none outside none}
+.navbox-body ul li{border-bottom:1px dotted #ccc}
+.navbox-body a{font:11px verdana;color:#00a4e8;display: block;padding:4px;margin 0 10px}
+.navbox-body a:hover{color:#036}
+.registerbox{background:#e8f6f9;margin:5px 2px;padding:5px 0px;height:90px;width:220px}
+.registertext{margin:5px 8px;color:#036;font:11px verdana}
+.loginbox{background:#e8f6f9;margin:5px 2px;padding:5px 0px;height:50px;width:220px}
+.logintext{margin:5px 8px;color:#036;font:11px verdana;width:150px}
+.btn a.functional{clear:right;float:right;margin:0 5px;background:#016BA8 url(/bcms-resources/retail/images/functional-grad.gif) repeat-x 0 0;color:#fff}
+a:hover.functional{background:#036;color:#fff}
+a.functional button{color:#fff}
+.functional em{background:url(/bcms-resources/retail/images/functional-btn-corners.gif) #e8f6f9}
+.btn a.directional{float:right;margin:0 5px;background:url(/bcms-resources/retail/images/directional-grad.gif) #006900 repeat-x 0 0;color:#fff}
+a:hover.directional{background:#036;color:#fff}
+.directional em{background:url(/bcms-resources/retail/images/directional-btn-corners.gif) #e8f6f9}
+.directional .lock{background:url(/bcms-resources/retail/images/directional-icon-lock.gif)}
+a:hover.directional .lock{background-position:-19px 0}
+.btn.noicon a{padding-right:10px}
+.btn{margin-bottom:0px}
+.btn:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;font-size:0;overflow:hidden}
+.btn a{position: relative;margin:0 0 0 5px;padding:2px 25px 2px 10px;font-weight:bold;border:0;display:block;float:left;min-height:16px;text-decoration:none}
+* html .btn a{height:16px}
+.btn em{display:block;overflow:hidden;position:absolute;height:10px;width:9px;background-repeat:no-repeat;z-index:1}
+.btn .tl{background-position:0 0;top:0;left:0}
+.btn a:hover .tl{background-position:0 -10px}
+.btn .tr{background-position:-27px 0;top:0;right:0}
+.btn a:hover .tr{background-position:-27px -10px}
+* html .btn .tr, * html .btn .br{margin-right:-1px}
+.btn .bl{background-position:-9px 0;bottom:0;left:0}
+.btn a:hover .bl{background-position:-9px -10px}
+.btn .br{background-position:-18px 0;bottom:0;right:0}
+.btn a:hover .br{background-position:-18px -10px}
+.btn .icon{display:block;overflow:hidden;position:absolute;top:50%;right:0;height:19px;width:19px;margin-top:-9px;background-repeat:no-repeat;z-index:2;background-position:0 0}
+
+p.disclaimer {font-size:90%;}
+.alternative {padding:50px;}
+.alternative a:hover{color:#036}
+.alternative a{color:#00a4e8}

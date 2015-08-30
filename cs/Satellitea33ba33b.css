@@ -1,0 +1,85 @@
+/**************************** LAYOUT *******************************/
+.tabheading{width:700px;margin:10px 0 0 15px}
+.tabs{width:701px;height:44px;margin:10px 0 10px 15px}
+.tabs-w740{width:740px;height:44px;margin:10px 0 0 15px}
+.tabs ul,.tabs-w740 ul{list-style:none}
+.tabs ul li,.tabs-w740 ul li{display:inline;padding:0 20px}
+.tabs nav,.tabs-w740 nav{float:left;margin:6px 0 0 0}
+.tabs-bar a{padding:10px 10px 14px 10px;position:relative;float:left;margin:6px 0 0 0}
+.tabs a,.tabs-w740 a{margin:0 10px}
+.bg-tab,.bg-tab-white{width:700px;height:258px;margin:10px 0 10px 15px}
+.tabdetail-heading{margin:10px 0 0 15px}
+.tab-heading-white{margin-left:10px;padding-top:10px;width:600px;height:30px}
+.tab-content{padding:0 10px}
+.tab-content-panel{width:680px;padding-top:10px}
+.tab-content-panel ul, .tab-content-panel ol {margin-left:20px}
+.tab-content-panel section {float:left;margin-left:10px;_margin-left:5px;width:435px}
+
+.tab-aside-panel{float:right;width:235px;margin:0 0 10px 0}
+.tab-video-panel{float:right;margin:0 10px}
+.tab-text-panel{float:right;background:#ededed;margin:0 10px;padding:10px 20px;width:165px}
+.tab-rate-panel{float:right;background:#ededed;margin:0 0 10px 10px;padding:10px 20px 20px;width:165px}
+
+.tab-butgrey,.tab-butgreen{float:right;margin:10px 0 0 10px}
+.tab-butgreen{clear:right}
+.tab-butgrey a{padding:8px 20px;display:block}
+.tab-butgreen a{padding:8px 20px;display:block}
+.tab-aside-panel ul{list-style:none;margin:5px}
+.tab-aside-panel ul li span{margin:5px 0 5px 10px}
+/*Details Product template*/
+
+aside .promotion, aside .contact, .tab-rate-bluepanel{float:right;background:#ebf9fd;margin:0 0 10px 10px;padding:10px;width:205px}
+.tab-rate-bluepanel{padding:10px 30px 20px 10px;width:185px}
+aside .promotion .icon, aside .contact .icon, .tab-voted-image{float:left;width:60px}
+aside .promotion .icon img, aside .contact .icon img{display:block;margin:0 auto}
+aside .promotion .caption {float:left;width:145px}
+
+
+
+/**************************** THEME *******************************/
+.tabs,.tabs-w740{background:url("../bcms-resources/retail/images/bg-tabs.gif") repeat-x left bottom transparent}
+.tabs-bar{border-right:#b7b7b7 solid 1px}
+.tabs-hover{background:url("../bcms-resources/retail/images/bg-tabs-on.gif") repeat-x left top;color:#006991}
+.bg-tab{/* Firefox 3.6+ */background:-moz-linear-gradient(#fff, #f5f5f5 100%);/* Safari 4+, Chrome 1+ */background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#f5f5f5 100%));/* Safari 5.1+, Chrome 10+ */background-image:-webkit-linear-gradient(#fff, #f5f5f5 100%);/* Opera 11.10+ */background-image:-o-linear-gradient(#fff, #f5f5f5 100%);behavior: url("../bcms-resources/global/js/pie.htc");-pie-background: linear-gradient(#fff, #f5f5f5 100%);border:1px solid #ccc;border-top:none;-webkit-border-radius:0 0 8px 8px;-moz-border-radius:0 0 8px 8px; border-radius:0 0 8px 8px;-pie-border:border-radius(0 0 8px 8px);height:100%;padding-bottom:10px;_padding-bottom:10px}
+.tab-heading,.tabdetail-heading{background:#1a1a1a url("../bcms-resources/retail/premier/images/bg-tab-heading.gif") repeat-x 0 0;/* Firefox 3.6+ */background:-moz-linear-gradient(#4b4b4b, #1a1a1a 100%);/* Safari 4+, Chrome 1+ */background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4b4b4b), to(#1a1a1a 100%));/* Safari 5.1+, Chrome 10+ */background-image:-webkit-linear-gradient(#4b4b4b, #1a1a1a 100%);/* Opera 11.10+ */background-image:-o-linear-gradient(#4b4b4b, #1a1a1a 100%);width:700px;height:38px}
+.heading-blue{font-size: 1.5em;color: #00B1EB; margin: 10px 0 0 15px}
+.tab-butgrey a{background:url("../bcms-resources/retail/images/but-greybg.gif") repeat-x left top transparent;z-index:1}
+.tab-butgreen a{background:url("../bcms-resources/retail/images/but-greenbg.gif") repeat-x left top transparent;z-index:1}
+.tab-butgrey a:hover{background:#b7b7b7}
+.tab-butgreen a:hover{background:#bed630}
+.tab-aside-panel ul li{background: url("../bcms-resources/retail/images/bullet-greyarrow.gif") no-repeat 0 4px;margin-bottom:5px}
+/*Details Product template*/
+.tab-contact-bluepanel div.tab-icon-contact {background:url("../bcms-resources/retail/images/icons-comms.gif") no-repeat 0 0 transparent;width:165px;height:45px}
+
+
+
+/**************************** TYPOGRAPHY *******************************/
+.tabs,.tabs-w740{font-size:0.75em}
+.tab-heading-grey{font-weight:bold;color:#4c4b4a;font-size:0.875em}
+.tab-heading-white{font-weight:bold;color:#fff;font-size:0.875em}
+.tab-content-panel section h2, .tab-content-panel section h3 {font-weight:bold;color:#00b1eb;font-size:0.875em}
+.tab-content{color:#4c4a4b}
+.tab-listheading{font-weight:bold}
+.tab-content ul, .tab-content ol{font-size:0.75em}
+.tab-rate-bluepanel .rate, .tab-rate{color:#006991;font-size:3em;text-align:right}
+.tab-rate-bluepanel > span.rate {display:block}
+.tab-rate-bluepanel .rate-info, .tab-rate-info{color:#006991;font-size:0.875em;font-weight:bold;text-align:right}
+.tab-butgrey a:link,.tab-butgrey a:visited,.tab-butblue a:active{color:#006991;text-decoration:none}
+.tab-butgrey a{color:#006991;font-weight:bold;font-size:0.75em;text-decoration:none}
+.tab-butgreen a{color:#006991;font-weight:bold;font-size:0.75em;text-decoration:none}
+.tab-butgrey a:hover{color:#006991}
+.tab-butgreen a:hover{color:#006991}
+.tabs-bar a:hover{font-weight:normal}
+/*Details Product template*/
+.tabs-hover {color:#4c4a4b !important}
+
+aside .contact, aside .promotion  {color:#4c4b4a;font-size:0.75em;font-weight:normal}
+aside .promotion .caption a:hover {font-weight:normal}
+aside .promotion .caption a b,
+aside .promotion .caption a:hover b, 
+aside .promotion .caption a strong,
+aside .promotion .caption a:hover strong {font-size:1.25em;font-weight:bold}
+aside .contact .tel,
+aside .contact b, 
+aside .contact strong {color:#4c4b4a;font-size:1.25em;font-weight:bold;white-space:nowrap}
+aside .contact p, aside .promotion p {margin:0 0 0.5em;font-size:1em}

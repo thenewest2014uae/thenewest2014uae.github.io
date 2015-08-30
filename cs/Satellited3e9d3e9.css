@@ -1,0 +1,24 @@
+/**************************** LAYOUT *******************************/
+.explore-links{position:relative;z-index:10;padding:10px 0;margin:10px 15px;width:945px}
+.explore-links .explore-content{margin-top:15px}
+.explore-links .explore-content nav{float:left;margin:10px 15px 0 0;width:210px}
+.explore-links .explore-content ul{list-style:none}
+
+
+
+/**************************** THEME *******************************/
+.explore-links a#explore-toggle{background: url("../bcms-resources/retail/images/but-blue21x21-arrows.gif") no-repeat 0px -44px transparent;display:block;height:17px}
+.explore-links a.explore{background: url("../bcms-resources/retail/images/but-blue21x21-arrows.gif") no-repeat 0 0 transparent !important}
+.explore-links{clear:both;border-top:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5;overflow:hidden}
+.explore-content{background-color:#fff}
+#retailLanding .explore-nolinks{clear:both;margin-top:20px;border-top:1px solid #e5e5e5;overflow:hidden}
+
+
+
+/**************************** TYPOGRAPHY *******************************/
+.explore-heading{color:#4c4a4b;font-size:0.875em}
+.explore-links .explore-content nav h3,.explore-links a#explore-toggle,.explore-links a.explore{font-weight:bold}
+.explore-links .explore-content nav h3{color:#006991;font-size:0.875em}
+.explore-links a:hover#explore-toggle,.explore-links a:hover.explore{color:#006991}
+.explore-links a.explore span,.explore-links a#explore-toggle span{font-size:0.875em;margin-left:30px}
+.explore-links .explore-content nav h3,.explore-links .explore-content nav li a{font-size:0.750em}

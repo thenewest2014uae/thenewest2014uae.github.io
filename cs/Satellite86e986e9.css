@@ -1,0 +1,41 @@
+html, body {margin:0px auto; padding:0px; height:100%; background-color:#B2B2B2;}
+body {font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#003366; padding:0px 5px;}
+a 		{border:none; outline:none; color:#007EB6; text-decoration:none;}
+a:hover {border:none; outline:none; color:#007EB6; text-decoration:underline;}
+a:active{border:none; outline:none;}
+a, img 	{border:none; outline:none;}
+p, form, ul, li {margin:0; padding:0; list-style-type:none;}
+h1, h2, h3, h4, h5, h6 {padding:0px; margin:0px; font-weight:normal;}
+h1 {}
+h2 {font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#003366; padding-bottom:11px;}
+h3 {font-family:Arial, Helvetica, sans-serif; font-size:21px; font-weight:bold; color:#003366; padding:16px 0px 19px 0px;}
+h4 {font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#003366; padding:10px 0px 0px 9px; float:left;}
+h5 {}
+h6 {}
+ul{list-style-image:none; margin:0px auto; padding:0px 0px 11px 25px;}
+li{margin:0px; padding:0px; list-style-type:disc;}
+.clear {clear:both; width:100%; overflow:hidden; height:0px; font-size:0px; line-height:none;}
+
+/* ------- Main Section CSS ------- */
+.main_faqstxt{width:99%; margin:0px auto;}
+.main_logo{margin:0px 13px 10px 13px; border-bottom:1px solid #00ADEF;}
+.faqstxt{width:99%; margin:0px auto; border-bottom:1px solid #00ADEF; margin-bottom:15px; padding:0px 0px 5px 0px;}
+.faqstxt p{padding:0px 0px 11px 0px;}
+.faqstxt2{width:99%; margin:0px auto; border-bottom:1px solid #00ADEF; margin-bottom:5px; padding:0px 0px 5px 0px;}
+.faqstxt2 p{padding:0px 0px 20px 0px;}
+.welcometxt{padding:10px 0px 5px 0px;}
+.txt{line-height:14px;}
+a.btn:hover{opacity:0.8;}
+.copyright{font-size:9px; padding:0px 6px;}
+.main_bluebar{width:98%; height:42px; margin:0px auto; background-color:#DDEEF4; margin-bottom:10px;}
+.main_bluebar2{width:100%; height:42px; margin:0px auto; background-color:#DDEEF4; margin-bottom:10px;}
+.bar_left{float:left;}
+.bar_icon{float:left; padding:4px 0px 0px 0px;}
+.bar_right{float:right;}
+.btnhome{float:right; padding:12px 10px 0px 0px;}
+a.btnhome:hover{opacity:0.8;}
+.btnback{float:left; padding:12px 0px 0px 10px;}
+a.btnback:hover{opacity:0.8;}
+/* ------- Main Section CSS ------- */
+
+

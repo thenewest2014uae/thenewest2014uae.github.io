@@ -1,0 +1,45 @@
+/**************************** LAYOUT *******************************/
+.sitenav-links{padding:0 15px;width:945px;position:absolute;z-index:20}
+.sitenav-mainlinks{float:right;padding:10px 1px}
+.sitenav-mainlinks ul{list-style:none}
+.sitenav-mainlinks li{display:inline;padding:10px 25px}
+.sitenav-sublinks{clear:both}
+.sitenav-sublinks nav{float:left;margin:6px 0 0 0;padding:8px 0 12px 8px;width:170px}
+.sitenav-sublinks a#sitenav-toggle1 span,.sitenav-sublinks a#sitenav-toggle2 span,.sitenav-sublinks a#sitenav-toggle3 span,.sitenav-sublinks a#sitenav-toggle4 span,.sitenav-sublinks a#sitenav-toggle5 span,.sitenav-sublinks a#sitenav-toggle6 span{margin-left:20px}
+.sitenav-content ul{list-style:none}
+.sitenav-content nav{float:left;margin:10px 0 0 25px;width:150px}
+.sitenav-content nav.sitenav-aside{float:left;width:200px;margin:20px 0 0 -25px}
+.sitenav-aside span,.sitenav-aside-contact{margin-left:50px}
+
+
+
+/**************************** THEME *******************************/
+.sitenav-mainlinks li.selected{background: url("../bcms-resources/retail/images/bg-mainlinks.gif") repeat-x left top;border-right:#b7b7b7 solid 1px;border-left:#b7b7b7 solid 1px;height:33px;width:100%}
+.sitenav-sublinks a#sitenav-toggle1,.sitenav-sublinks a#sitenav-toggle2,.sitenav-sublinks a#sitenav-toggle3,.sitenav-sublinks a#sitenav-toggle4,.sitenav-sublinks a#sitenav-toggle5,.sitenav-sublinks a#sitenav-toggle6{background:url("../bcms-resources/retail/images/but-trans21x21-bluearrows.gif") no-repeat 0px -44px transparent;z-index:100}
+.sitenav-sublinks a#sitenav-toggle1.selected,.sitenav-sublinks a#sitenav-toggle2.selected,.sitenav-sublinks a#sitenav-toggle3.selected,.sitenav-sublinks a#sitenav-toggle4.selected,.sitenav-sublinks a#sitenav-toggle5.selected,.sitenav-sublinks a#sitenav-toggle6.selected{background:url("../bcms-resources/retail/images/but-trans21x21-whitearrows.gif") no-repeat 0px -44px transparent}
+.sitenav-sublinks{background:url("../bcms-resources/retail/images/bg-sublinks-off.gif") repeat-x left top;height:50px;width:100%}
+.sitenav-sublinks a{height:40px;width:170px}
+.sitenav-sublinks-bar{border-right:#b7b7b7 solid 1px}
+.sitenav-hover{background:url("../bcms-resources/retail/images/bg-sublinks-on.gif") repeat-x left top}
+.sitenav-content{background:url("../bcms-resources/retail/images/bg-contentlinks.gif") repeat-x left bottom;height:190px;width:943px;border:#b7b7b7 solid 1px;border-top:none}
+.sitenav-aside ul li.sitenav-aside-heading{height:24px;width:200px}
+.sitenav-aside ul li.icon-contact {background:url("../bcms-resources/retail/images/icons-comms.gif") no-repeat 0 0 transparent;width:200px;height:45px}
+.sitenav-aside ul li.icon-chat{background:url("../bcms-resources/retail/images/icons-comms.gif") no-repeat -200px -180px transparent;width:200px;height:45px}
+.sitenav-aside ul li.icon-locate{background:url("../bcms-resources/retail/images/icons-comms.gif") no-repeat -100px -90px transparent;width:200px;height:45px}
+.sitenav-aside ul li.icon-contact:hover{background:url("../bcms-resources/retail/images/icons-comms.gif") no-repeat -50px -45px transparent}
+.sitenav-aside ul li.icon-chat:hover{background:url("../bcms-resources/retail/images/icons-comms.gif") no-repeat -250px -225px transparent}
+.sitenav-aside ul li.icon-locate:hover{background:url("../bcms-resources/retail/images/icons-comms.gif") no-repeat -150px -135px transparent}
+
+
+
+/**************************** TYPOGRAPHY *******************************/
+.sitenav-mainlinks li.selected{font-weight:bold;color:#006991}
+.sitenav-mainlinks a:hover{font-weight:normal}
+.sitenav-mainlinks li.selected a:hover {font-weight:bold}
+.sitenav-sublinks a#sitenav-toggle1,.sitenav-sublinks a#sitenav-toggle2,.sitenav-sublinks a#sitenav-toggle3,.sitenav-sublinks a#sitenav-toggle4,.sitenav-sublinks a#sitenav-toggle5,.sitenav-sublinks a#sitenav-toggle6{color:#4c4b4a}
+.sitenav-sublinks a#sitenav-toggle1.selected,.sitenav-sublinks a#sitenav-toggle2.selected,.sitenav-sublinks a#sitenav-toggle3.selected,.sitenav-sublinks a#sitenav-toggle4.selected,.sitenav-sublinks a#sitenav-toggle5.selected,,.sitenav-sublinks a#sitenav-toggle6.selected{color:#fff}
+.sitenav-sublinks a:hover#sitenav-toggle1,.sitenav-links a:hover#sitenav-toggle2,.sitenav-links a:hover#sitenav-toggle3,.sitenav-links a:hover#sitenav-toggle4,.sitenav-links a:hover#sitenav-toggle5,.sitenav-links a:hover#sitenav-toggle6,.sitenav-aside span,.sitenav-aside nav ul li a{font-weight:normal;color:#4c4b4a;text-decoration:none}
+.sitenav-mainlinks,.sitenav-sublinks a#sitenav-toggle1 span,.sitenav-sublinks a#sitenav-toggle2 span,.sitenav-sublinks a#sitenav-toggle3 span,.sitenav-sublinks a#sitenav-toggle4 span,.sitenav-sublinks a#sitenav-toggle5 span,.sitenav-sublinks a#sitenav-toggle6 span,.sitenav-content nav ul li a{font-size:0.750em}
+.sitenav-aside-heading{font-weight:bold;color:#4c4b4a;font-size:0.875em}
+.sitenav-aside-contact{font-weight:bold;color:#4c4b4a;font-size:1.125em;text-decoration:none}
+.sitenav-sublinks .sitenav-hover a{color:#fff !important;background:url("../bcms-resources/retail/images/but-trans21x21-whitearrows.gif") no-repeat 0 -44px transparent !important}
